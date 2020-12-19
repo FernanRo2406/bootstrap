@@ -1,0 +1,63 @@
+.btn-platzi {
+  background-color: #97c93e;
+  color: white;
+}
+.btn-platzi:hover {
+  background-color: #82ad36;
+  color: white;
+}
+
+.text-platzi {
+  color: #97c93e !important;
+}
+
+#header img {
+  width: 80px;
+}
+
+#main .carousel-inner img {
+  max-height: 70vh;
+  /* 'n'vh porciento del alto */
+  object-fit: cover;
+  /* mantiene el la proporcion original de la imagen*/
+  filter: grayscale(70%);
+  /* a las imagenes le agrega un filtro gris */
+}
+
+#carousel {
+  position: relative;
+}
+#carousel .overlay {
+  /* pos absolute para que el overlay se expanda por todo el ancho y alto */
+  position: absolute;
+  /* no tenga espacio desde arriba,abajo ylos costados */
+  top: o;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* el fondo negro con una transparencia */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* color white para q todo lo q escribamos sea en blanco */
+  color: white;
+  /* propiedad para darle prioridad a lo que este dentro de overlay */
+  z-index: 1;
+  /* carousel caption era la mejor opocion pero tenia que repetir el texto */
+}
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+#place-time {
+  background-color: #212529;
+  color: white;
+}
+#place-time img {
+  max-width: 100%;
+}
+#footer {
+  /* background: #19303c; */
+  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+#footer a {
+  color: white;
+}
